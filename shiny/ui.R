@@ -31,6 +31,7 @@ shinyUI(fluidPage(
                        br(),
                        br(),
                        br(),
+                       helpText("To replay again, refresh the page. The number at the bottom left is the secret number"),
                        h3(textOutput("secretText"))
                 )
         )
