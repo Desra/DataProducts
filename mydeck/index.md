@@ -1,8 +1,8 @@
 ---
-title       : Data Products Course Project
+title       : Coursera Data Products Project
 subtitle    : Shiny App Development
-author      : Suraya Akmal
-job         : IT 
+author      : Suraya Akmal Alipiah
+job         :  
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
@@ -11,20 +11,77 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-## Read-And-Delete
+## Overview
 
-1. Edit YAML front matter
-2. Write using R Markdown
-3. Use an empty line followed by three dashes to separate slides!
+* Name of application: The Shiny App Guessing Game
+
+* Application Type: Game
+
+* Tools: 
+- R Markdown, 
+- R Studio, 
+- Shiny
+- Slidify
+- Photoshop
+
+
+--- .class #id  
+
+
+## Game Play
+
+
+Player will enter a number betweeh (0 - 100) and click the Submit button. 
+Upon entering their guess, the app will tell if the number is too low or too high. 
+Once player guesses correctly, the player wins the game.
+
+
+## Links
+
+Compiled HTML game at Rstudio's Shiny App server
+- https://desra.shinyapps.io/Demo/
+
+Source Code Repository at GitHub
+- https://github.com/Desra/DataProducts/Shiny
+
+--- .class #id  
+
+
+
+## Development
+
+There are 2 code files
+
+- ui.R     # Containing code for displaying UI/input
+- server.R # Containing code for  processing output
+
+Additional implemented functions: 
+
+- conditional statements 
+- helper/utility functions
+- random number generator
+- image/graphics
+- global variables
 
 --- .class #id 
 
-## Slide 2
 
-#Overview
-The Guessing Game is application created in Shiny.
+## Future improvements/enhancements
+
+1. Adding a score to keep track player's progress
+
+2. Better input control
+
+3. Improve random number generator
+
+4. More graphics and widgets for interactivity
+
+5. Add replay button instead of refreshing the page to reset the game
 
 
---- .class #id 
+## Sources:
 
-## Slide 3
+http://shiny.rstudio.com/tutorial
+
+https://www.coursera.org/learn/data-products/
+
