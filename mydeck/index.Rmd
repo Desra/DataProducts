@@ -42,7 +42,7 @@ Compiled HTML game at Rstudio's Shiny App server
 - https://desra.shinyapps.io/Demo/
 
 Source Code Repository at GitHub
-- https://github.com/Desra/DataProducts/Shiny
+- https://github.com/Desra/DataProducts/tree/gh-pages/mydeck
 
 --- .class #id  
 
